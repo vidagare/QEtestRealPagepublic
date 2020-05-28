@@ -1,0 +1,19 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "Automated test for real page QE position",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^83.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "devDependencies": {
+    "cucumber": "^6.0.5"
+  },
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "Victor Daniel Giraldo Arenas",
+  "license": "ISC"
+}
